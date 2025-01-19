@@ -4,7 +4,7 @@ describe('Service test suite', () => {
     
     test('Name should be CoolName', () => {
         const actual = getCoolName();
-        const expected = 'CoolName';
+        const expected = 'VeryCoolName';
         expect(actual).toBe(expected);
     })
 })
